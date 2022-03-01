@@ -1,0 +1,28 @@
+.date {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.temp {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+  text-align: center;
+}
+
+.mid {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}

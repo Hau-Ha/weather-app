@@ -1,0 +1,11 @@
+.heading {
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.light {
+  font-weight: 100;
+}

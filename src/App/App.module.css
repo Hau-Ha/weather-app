@@ -1,0 +1,43 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.city_name {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 30px;
+  color: #fff;
+  background: #ff8c00;
+  text-transform: uppercase;
+}
+.city {
+  display: flex;
+}
+
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 40px 8%;
+  border-radius: 20px;
+  background: rgba(38, 7, 212, 0.6);
+  box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  padding: 10px;
+  margin: 15px;
+}
+
+.error_text {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 100px;
+  display: inline-block;
+  height: 100px;
+  text-align: center;
+}
