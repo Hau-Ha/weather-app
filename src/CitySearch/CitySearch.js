@@ -7,7 +7,7 @@ function CitySearch({ onCityFound, onError }) {
   const apiKey = "sZjR9PF711QUGCCfdndxXAoG8I004cbr";
 
   const getLocationHandler = () => {
-    const url = `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apiKey}&q=${city}`;
+    const url = `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apiKey}&q=${city}`;
     fetch(url)
       .then((res) => res.json())
       .then((res) => res.find((l) => (l.Country.LocalizedName = { city })))

@@ -40,7 +40,7 @@ export const App = () => {
     ];
     if (locationKey) {
       fetch(
-        `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${apiKey}`
+        `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${apiKey}`
       )
         .then((res) => res.json())
         .then((res) => {
